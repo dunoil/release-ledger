@@ -1,0 +1,34 @@
+LEDGERLINE
+
+Release 4.2.0 · Double Entry
+
+4.2.0 IS LIVE, {{first_name}}
+
+The release we owed you: bank feeds that reconcile themselves, an audit trail you can hand to an accountant without flinching, and the two breaking changes clearly marked before anything else. Nine changes, each with a ledger id you can quote back to us.
+
+3 added · 2 changed · 2 fixed · 2 breaking
+
+Read these first — 2 breaking changes
+
+RL-1011 API v1 responses lose the `total_tax` alias. The deprecated alias for `tax_total` is removed in API v1 responses. The field itself is unchanged; update integrations that read the alias before upgrading.
+
+RL-1009 Legacy XLS export retired. The pre-2019 .xls exporter is removed. CSV and XLSX exports cover every report it produced; saved schedules were migrated automatically.
+
+Change | Type | Ledger id
+Self-reconciling bank feeds — Banking | Added | RL-1042
+Accountant-ready audit pack — Reports | Added | RL-1037
+Proration previews — Billing | Added | RL-1031
+Invoice numbers are now per-entity — Invoices | Changed | RL-1028
+Search covers attachments and notes — Search | Changed | RL-1025
+CSV imports no longer drop the last row — Imports | Fixed | RL-1019
+Rounding on multi-rate invoices — Tax | Fixed | RL-1016
+API v1 responses lose the `total_tax` alias — API | Breaking | RL-1011
+Legacy XLS export retired — Exports | Breaking | RL-1009
+
+Read the full release notes (https://ledgerline.example/releases/4-2-0)
+
+Ledgerline · Every version, on the record · Changelog RSS and API available
+
+One release file rendered this — email, page, release notes and announcement card — with Hyper Elements.
+
+You receive release email because you run Ledgerline. Unsubscribe ({{unsubscribe_url}})
