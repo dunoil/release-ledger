@@ -1,4 +1,6 @@
-# Competition submission — Release Ledger (prepared 18 Nov 2026, submit 19 Nov 2026)
+# Competition submission — Release Ledger (submitted 19 Nov 2026)
+
+**Discussion:** https://github.com/hyper-elements/hyper-elements/discussions/280
 
 Target: GitHub Discussions → **Challenge Submissions** in `hyper-elements/hyper-elements`
 Repository (create on submission day): https://github.com/dunoil/release-ledger
